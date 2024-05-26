@@ -10,46 +10,95 @@
             @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
             body{
                 font-family: Quicksand;
+                width:70%;
+                margin-left: auto;
+                margin-right:auto;
+            }
+            img{
+                border-radius: 10%;
+            }
+            video{
+                border-radius: 10%;
+            }
+            #profileimg{
+                width: 25%;
+                box-shadow: 0.1em 0.1em 0.5em rgba(0,0,0,0.5);
+            }
+            #profileimg:hover{
+                transform: rotateY(360deg);
+                transition: ease 1000ms;
+                cursor: pointer;
+            }
+            li{
+                padding: 0.5em;
             }
         </style>
     </head>
     <body>
-        <h1>Profile - Sophia Davis</h1>
+        <h1 style="text-align: center;">Profile - Sophia Davis</h1>
         <section id = "about">
-            <img src="images/profile.jpg" width="20%" alt="A photo of Sophia Davis in the sceneic lookout of Prague Castle cathedral" />
+            <center><a href="https://www.linkedin.com/in/sophiadavis/" target="_blank"><img src="images/profile.jpg" id="profileimg" alt="A photo of Sophia Davis in the sceneic lookout of Prague Castle cathedral" /></a></center>
             <h2>About Me</h2>
             <ul>
                 <li>I was born in Maryland.</li>
                 <li>I live on Maui. I moved here when I was 5 years old, then I left for university when I was 17, and I moved back home recently in November.</li>
                 <li>I am moving to Oahu in about a week.</li>
-                <li>One of my goals that I would like to accomplish during my lifetime is to create a project, company, or organization that gives back to my community and helps with the process of diversifying our local economy beyond tourism. My "Why" in enrolling in this bootcamp is to be able to use the knowledge and skills I gain to help local nonprofits and my community in general.</li>
+                <li>One of my goals that I would like to accomplish during my lifetime is to create a project, company, or organization that gives back to my community and helps with the process of diversifying our local economy beyond tourism. </li>
+                <li>My "Why" in enrolling in this bootcamp is to be able to use the knowledge and skills I gain to help local nonprofits and my community in general.</li>
                 <li>The strategies I aim to use to stay committed and motivated is to keep an organized, consistent, and well-balanced schedule, to work on the bulk of the focus work in the early mornings when my mind is most sharp, and to set personal goals for myself in terms of what I want to learn in depth and build.</li>
             </ul>
         </section>
         <section id = "interests">
             <h2>Interests</h2>
             <ul>
-                <li>I like to make <a href="https://www.youtube.com/channel/UCgGn_uuSd-UJyVedUkA6_wg"><strong>animations</strong></a>.</li>
+                <li>I like to make <a href="https://www.youtube.com/channel/UCgGn_uuSd-UJyVedUkA6_wg" target="_blank"><strong>animations</strong></a>.
+                    <br>
+                    <br>
+                    <video src="videos/bread-intro.mp4" controls width="50%"><a href="videos/bread-intro.mp4">Download Video</a></video>
+                </li>
                 <li>I like to knit and crochet.
                     <br>
+                    <br>
                     <img src="images/crochet.jpg" alt="A crochet purse and coasters that I made for my mom, in the shape and theme of sunflowers." width="20%"/>
+                    <img src="images/angora_knit.gif" width="22%" alt="Me modelling a light-colored angora knit scarf and headband that I knitted in 2021." />
+                    <img src="images/crocet_squares.jpg" width="30%" alt="Green crochet squares with a white flower with a tan center right in the middle of it." />
                 </li>
-                <li>I like to make robots.
+                <li>I like drawing.
                     <br>
-                    <img src="images/robot.jpg" width="20%" alt="A robot that I built from a white plastic trash can for my Freshman project in highschool." />
+                    <br>
+                    <video src="videos/making-socks.mp4" controls width="16%"><a href="videos/making-socks.mp4">Download Video</a></video>
+                    <img src="images/drawing.png" width="20%" alt="A comic-style drawing that I made called What is Biomedical Engineering, that teaches people about all of the different things that Biomedical Engineers do." />
+                    <img src="images/sketch.jpg" width="20%" alt="A notebook sketch of a monster."/>
+                    <img src="images/cloud_drawing.jpg" width="15%" alt="A sketch of a city up in the clouds" />
                 </li>
-                <li>I like to <em>run</em>.
+                <li>I like robots. Building them, drawing them, animating them, etc.
                     <br>
-                    <img src="images/photo2.jpg" alt="Posing with my bib number at the finish line, after running the Maui Marathon (half marathon)." width="20%"/>
+                    <br>
+                    <img src="images/robot.jpg" width="18%" alt="A robot that I built from a white plastic trash can for my Freshman project in highschool." />
+                    <img src="images/robot_sketch.jpg" width="18%" alt="Sketches of robots" />
+                    <img src="images/robot_rocket.jpg" width="55%" alt="Digitally rendered robot that looks like a rocket" />
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pD3NS8fKM2A?si=KHR0ZYHxDXY5TtGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </li>
+                <li>I like running. <em style="font-size: 0.75em;">(I'm not quite sure yet if running likes me.)</em>
+                    <br>
+                    <br>
                     <img src="images/photo3.jpg" alt="Mirror selfie of me wearing running gear - vest, bib, running hat, and running clothes - before leaving to run the Maui Marathon half marathon." width="20%" />
+                    <img src="images/photo2.jpg" alt="Posing with my bib number at the finish line, after running the Maui Marathon (half marathon)." width="20%"/>
+                    <img src="images/maui_marathon_medal.jpg" width="20%" alt="My medal from the Maui Marathon. Main colors are the blue ocean and purple sky, other colors include a green mountain, yellow sun, and orange clouds. There is also a whale and an image of Maui island." />
+                    <img src="images/maui5k.png" width="20%" alt="Photo collage of things from running the Maui 5K - my bib number, my medal, a selfie of me, a photo of me outside of the Maui Ocean Center, the Maui 5K sign, and my results." />
                 </li>
-                <li>I like to volunteer. I recently volunteered for three weeks with <a href = "https://www.allhandsandhearts.org/programs/hawaii-wildfire-relief/">All Hands and Hearts (AHAH) wildfire recovery efforts on Maui</a>, after the devastating August 8 wildfires.
+                <li>I like to volunteer. I recently volunteered for three weeks with <a href = "https://www.allhandsandhearts.org/programs/hawaii-wildfire-relief/" target="_blank">All Hands and Hearts (AHAH) wildfire recovery efforts on Maui</a>, after the devastating August 8 wildfires.
+                <br>
                 <br>
                 <img src="images/photo1.jpg" width="20%" alt="Sophia posing in front of a sign at AHAH camp, showing the distances from Hawai'i to different places around the world where AHAH are currently doing relief or recovery work." />
-                <img src="images/photo4.jpg" width="20%" alt="Sophia using a nailgun on an MPU (multi purpose unit) built during AHAH camp, for the wildfire survivors."/>
-                <img src="images/photo5.jpg" width="40%" alt="A very pink sunrise at AHAH volunteer camp on Maui." />
+                <img src="images/photo4.jpg" width="15%" alt="Sophia using a nailgun on an MPU (multi purpose unit) built during AHAH camp, for the wildfire survivors."/>
+                <img src="images/photo5.jpg" width="36%" alt="A very pink sunrise at AHAH volunteer camp on Maui." />
+                <img src="images/volunteering_cooking.jpg" width="15%" alt="Preparing meals for displaced residents at Hua Momona / Hungry Heroes Hawai'i" />
             </li>
             </ul>
+            This song is called Dream Chaser by Mike Chino, and you can find it on Soundcloud <a href="https://soundcloud.com/argofox/mike-chino-dream-chaser">here</a>.
+            <br>
+            <br>
             <audio controls src="mp3s/MikeChinoDreamChaser.mp3"><a href="mp3s/MikeChinoDreamChaser.mp3">Download Audio</a></audio>
         </section>
     </body>
